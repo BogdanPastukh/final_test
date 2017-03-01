@@ -1,0 +1,18 @@
+body {
+  background: red;
+}
+body p {
+  color: red;
+}
+.block {
+  position: static;
+}
+.block .item {
+  position: static;
+}
+.block .item a {
+  position: static;
+}
+.block .test {
+  position: static;
+}
