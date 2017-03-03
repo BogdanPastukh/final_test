@@ -1,6 +1,325 @@
+
+/* Raleway */
+
 @font-face {
-    font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 100;
+  src: url('../fonts/Raleway/Raleway-Thin.ttf');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 100;
+  src: url('../fonts/Raleway/Raleway-LightItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/Raleway/Raleway-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 300;
+  src: url('../fonts/Raleway/Raleway-LightItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Raleway/Raleway-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/Raleway/Raleway-Italic.ttf');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/Raleway/Raleway-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 500;
+  src: url('../fonts/Raleway/Raleway-MediumItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/Raleway/Raleway-Semibold.ttf');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 600;
+  src: url('../fonts/Open_Sans/OpenSans-SemiboldItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/Raleway/Raleway-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 700;
+  src: url('../fonts/Raleway/Raleway-BoldItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/Raleway/Raleway-ExtraBold.ttf');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 800;
+  src: url('../fonts/Raleway/Raleway-ExtraBoldItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/Raleway/Raleway-Black.ttf');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 900;
+  src: url('../fonts/Raleway/Raleway-BlackItalic.ttf');
+}
+
+/* Open_Sans */
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/Open_Sans/OpenSans-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 300;
+  src: url('../fonts/Open_Sans/OpenSans-LightItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Open_Sans/OpenSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/Open_Sans/OpenSans-Italic.ttf');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/Open_Sans/OpenSans-Semibold.ttf');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: url('../fonts/Open_Sans/OpenSans-SemiboldItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/Open_Sans/OpenSans-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: url('../fonts/Open_Sans/OpenSans-BoldItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/Open_Sans/OpenSans-ExtraBold.ttf');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 800;
+  src: url('../fonts/Open_Sans/OpenSans-ExtraBoldItalic.ttf');
+}
+
+/* Proxima_Nova */
+
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 100;
+  src: url('../fonts /Proxima Nova/Proxima Nova Thin.otf')
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: italic;
+  font-weight: 100;
+  src: url('../fonts /Proxima Nova/Proxima Nova Thin Italic.otf')
+}
+@font-face{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts /Proxima Nova/Proxima Nova Light.otf')
+}
+@font-face{
+    font-family: 'Proxima Nova';
+    font-style: italic;
+    font-weight: 300;
+    src: url('../fonts /Proxima Nova/Proxima Nova Light Italic.otf')
+}
+@font-face{
+    font-family: 'Proxima Nova';
     font-style: normal;
     font-weight: 400;
-    src: url('/fonts/OpenSans/OpenSans-Regular.ttf')
+    src: url('../fonts /Proxima Nova/Proxima Nova Regular.otf')
+}
+@font-face{
+    font-family: 'Proxima Nova';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts /Proxima Nova/Proxima Nova Regular Italic.otf')
+}
+@font-face{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts /Proxima Nova/Proxima Nova Semibold.otf')
+}
+@font-face{
+    font-family: 'Proxima Nova';
+    font-style: italic;
+    font-weight: 600;
+    src: url('../fonts /Proxima Nova/Proxima Nova Semibold Italic.otf')
+}
+@font-face{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts /Proxima Nova/Proxima Nova Bold.otf')
+}
+@font-face{
+    font-family: 'Proxima Nova';
+    font-style: italic;
+    font-weight: 700;
+    src: url('../fonts /Proxima Nova/Proxima Nova Bold Italic.otf')
+}
+@font-face{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts /Proxima Nova/Proxima Nova Extrabold.otf')
+}
+@font-face{
+    font-family: 'Proxima Nova';
+    font-style: italic;
+    fontweight: 800;
+    src: url('../fonts /Proxima Nova/Proxima Nova Extrabold Italic.otf')
+}
+@font-face{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts /Proxima Nova/Proxima Nova Black.otf')
+}
+@font-face{
+    font-family: 'Proxima Nova';
+    font-style: italic;
+    font-weight: 900;
+    src: url('../fonts /Proxima Nova/Proxima Nova Black Italic.otf')
+}
+
+/* Ubuntu */
+
+@font-face{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts /Ubuntu/Ubuntu-Light.ttf')
+}
+@font-face{
+    font-family: 'Ubuntu';
+    font-style: italic;
+    font-weight: 300;
+    src: url('../fonts /Ubuntu/Ubuntu-LightItalic.ttf')
+}
+@font-face{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts /Ubuntu/Ubuntu-Regular.ttf')
+}
+@font-face{
+    font-family: 'Ubuntu';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts /Ubuntu/Ubuntu-Italic.ttf')
+}
+@font-face{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts /Ubuntu/Ubuntu-Medium.ttf')
+}
+@font-face{
+    font-family: 'Ubuntu';
+    font-style: italic;
+    font-weight: 500;
+    src: url('../fonts /Ubuntu/Ubuntu-MediumItalic.ttf')
+}
+@font-face{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts /Ubuntu/Ubuntu-Bold.ttf')
+}
+@font-face{
+    font-family: 'Ubuntu';
+    font-style: italic;
+    font-weight: 700;
+    src: url('../fonts /Ubuntu/Ubuntu-BoldItalic.ttf')
 }

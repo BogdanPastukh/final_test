@@ -1,18 +1,16 @@
+@import 'fontsfonts.css';
 body {
-  background: red;
+  background: #fff;
+  font-family: 'Open Sans', sans-serif;
 }
-body p {
-  color: red;
+.container {
+  max-width: 500px;
+  margin: 0 auto;
 }
-.block {
-  position: static;
+section {
+  height: 200px;
+  text-align: center;
 }
-.block .item {
-  position: static;
-}
-.block .item a {
-  position: static;
-}
-.block .test {
-  position: static;
+section:nth-child(even) {
+  background: grey;
 }

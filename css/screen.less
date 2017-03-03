@@ -1,19 +1,22 @@
-body {
-    background: red;
-    p {
-        color: red;
+@import 'fontsfonts.css';
+
+
+body{
+    background: #fff;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+section {
+    height: 200px;
+    text-align: center;
+    &:nth-child(even) {
+        background: grey;
     }
 }
 
-.block {
-    position: static;
-    .item {
-        position: static;
-        a {
-            position: static;
-        }
-    }
-    .test {
-        position: static;
-    }
-}
+
