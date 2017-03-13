@@ -1,0 +1,15 @@
+.section-news{
+    &__header{
+        font-family: 'Proxima Nova';
+        font-weight: semibold;
+        font-size: 14px;
+        text-transform: capitalize;
+        background-color: #fbfbfb;
+        height: 62px;
+        border-bottom: 1px solid #ddd;
+        color: #63727a;
+        &__item__1 { 
+            border-right:  1px solid #ddd;
+        }
+    }
+}

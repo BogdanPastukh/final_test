@@ -1,0 +1,52 @@
+.section-courses{
+    height: 216px;
+    .col-xs-4 {
+        padding: 0;
+    }
+    &__item {
+        font-family: "Proxima Nova";
+        height: 108px;
+        position: relative;
+        padding-top: 37px ; 
+        padding-left: 43px;
+        padding-bottom: 37px;
+        padding-right: 0;
+        text-align: left;
+        line-height: 19px;
+        &__1{
+            background-color: #3a557c;
+        }
+        &__2{
+            background-color: #466289;
+        }
+        &__3{
+            background-color: #253957;
+        }
+        &__4{
+            background-color: #516e96;
+        }
+        &__5{
+            background-color: #4771af;
+        }
+        &__6{
+            background-color: #3a557c;
+        }
+    }
+    &__header {
+     color: #fafdfd;
+     font-size: 18px ;
+    }
+    &__icon{
+        color: #324a6d;
+        font-size: 25px;
+        position: absolute;
+        right: 50px;
+        top: 32px;
+    }
+    &__footer {
+        color: #fafdfd;
+        font-size: 13px;
+    }
+}
+
+
