@@ -1,26 +1,94 @@
 .section-news{
     font-family: 'Proxima Nova';
+    &_top {
+        background-color: #fbfbfb;
+    }
     &__header{
         font-weight: 600;
         font-size: 14px;
         text-transform: uppercase;
-        background-color: #fbfbfb;
-        height: 62px;
+        // height: 63px;
+        // padding:  20px 10px;
         border-bottom: 1px solid #ddd;
         color: #63727a;
-        &__item__1 { 
-            border-right:  1px solid #ddd;
+        &-item {
+            padding: 20px 10px;
+            &_1 { 
+                border-right:  1px solid #ddd;
+                padding-left: 0px;
+                // width: 381px;
+            }
         }
     }
     &__article{
-        .name {
-            
+        &__item__1 {
+            border-right:  1px solid #ddd;
+            padding-left: 0px;
+            padding-right: 93px;
+            width: 381px;
         }
+        &__item__2 {
+            padding-left:  56px;
+            width: 421px;
+            padding-right: 30px;
+        }
+        &__item__3 {
+            border-right:  1px solid #ddd;
+            padding-left: 0px;  
+            width: 381px; 
+            padding-right: 30px;
+        }
+        &__item__4 {
+            width: 421px;
+            padding-left:  56px;
+            padding-right: 70px;
+        }
+        .name {
+            font-weight: 600;
+            font-size: 16px;
+            color: #f6b431;
+        }
+        .text{
+            font-weight: 600;
+            font-size: 14px;
+            color: #324a6d;
+        }
+        .date{
+            font-weight: 600;
+            font-size: 14px;
+            color: #aeb3ba;
+            font-style: italic;
+        }
+        .video{
+            &_2{background-image: url("images/Layer 8.png");
+            opacity: 0.702;
+            position: absolute;
+            left: 934px;
+            top: 2051px;
+            width: 632px;
+            height: 421px;
+            z-index: 93;
+            }
+}
 
+        }
+    }
+    @media screen and (min-width: "768px") {
+        .no_pading {
+            padding: 0;
+        }
+        &__header{
+            display: flex;
+            &-item {
+                width: 33.3%;
+            }
+        }
     }
 }
 
 .table_fixed {
     width: 100%;
     table-layout: fixed;
+    margin: 0px;
+    padding: 0px;
 }

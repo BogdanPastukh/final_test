@@ -3,6 +3,11 @@ $icon-font-path: '../fonts/';
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@import "_section-footer.scss";
 @import "_fonts.scss";
 @import "_section-about-us.scss";
 @import "_section-courses.scss";
