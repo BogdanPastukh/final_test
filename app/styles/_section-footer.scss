@@ -1,0 +1,31 @@
+#footer{
+    background-color: #344d71;
+    font-family: 'Proxima Nova';
+    font-weight: 600;
+    padding: 50px 0;
+    color: #59759c;
+    font-size: 13px;
+    line-height: 23px;
+    .contact{
+        position: absolute;
+        right: 50px;
+        top: -97px;
+        padding: 11px 0px 8px;
+        background: #344d71;
+        width: 282px;
+        height: 55px;
+    .phone{
+        font-weight: 600;
+        font-size: 25px;
+        color: #fafdfd;
+        width: 220px;
+        padding: 30px 30px 10px;
+    }
+    .icon{
+        font-size: 20px;
+        color: #fafdfd;
+        background-color: #f6b431;
+        padding:13px 20px 10px;
+    }
+  }
+}
